@@ -14,7 +14,7 @@ public class squarepattern {
             }
             System.out.println();
         }
-
+sc.close();
     }
 }
 /*
