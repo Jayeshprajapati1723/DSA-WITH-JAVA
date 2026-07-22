@@ -1,22 +1,20 @@
 public class insertion {
     public static void main (String args[]) {
-int usarr[] ={5,3,4,1,2} ;
-int sortarr[]={0,0,0,0} ;
-sortarr[0] = usarr[0] ;
- 
-for(int i=1 ; i<usarr.length-1 ;i++) {
-if(sortarr[i-1]>usarr[i])
-{
-    sortarr[i] = sortarr[i-1] ;
-    sortarr[i-1] = usarr[i] ;
+int usarr[] ={5,3,4,1,2,0,25} ;
+
+ for(int j=0 ; j<usarr.length ;j++) {
+for(int i=0 ; i<usarr.length-1-j ;i++) {
+if(usarr[i]>usarr[i+1]) {
+    int temp = usarr[i] ;
     usarr[i] = usarr[i+1] ;
+    usarr[i+1] =temp ;
 } else {
-    sortarr[i+1] =usarr[i] ;
-    usarr[i] = usarr[i+1] ;
+
 }
+ }
 }
-for(int i=0 ;i<sortarr.length;i++) {
-    System.out.println( sortarr[i]) ;
+for(int i=0 ;i<usarr.length;i++) {
+    System.out.println( usarr[i]) ;
 }
     }
 }
