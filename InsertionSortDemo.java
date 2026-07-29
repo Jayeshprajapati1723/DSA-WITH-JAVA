@@ -1,6 +1,7 @@
 public class InsertionSortDemo {
     public static void main(String[] args) {
         int arr[] = {5, 3, 4, 1, 2};
+        
 
         // Outer loop: Unsorted elements ko ek-ek karke uthane ke liye (Index 1 se start)
         for (int i = 1; i < arr.length; i++) {
