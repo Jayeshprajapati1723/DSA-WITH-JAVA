@@ -7,6 +7,7 @@ public class InsertionSortDemo {
         for (int i = 1; i < arr.length; i++) {
             int key = arr[i]; // Jise sahi jagah fit karna hai (e.g. key = 3)
             int j = i - 1;  
+            
               // Left side ke sorted elements ka last index
 
             // Inner loop: Jab tak peeche ke elements 'key' se bade hain, unhe aage SHIFT karo
