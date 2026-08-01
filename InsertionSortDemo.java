@@ -15,7 +15,9 @@ public class InsertionSortDemo {
             while (j >= 0 && arr[j] > key) {
                 arr[j + 1] = arr[j]; // Element ko right shift karo
                 j--;                 // Left ki taraf badho
+                
             }
+
 
             // Sahi jagah milne par key ko INSERT kar do
             arr[j + 1] = key;
