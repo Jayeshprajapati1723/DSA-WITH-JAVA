@@ -9,6 +9,7 @@ public class selection {
                 if(arr[small]>arr[j]) {
                     small = j;
                 }
+                
 
             }
             int temp = arr[small] ;
